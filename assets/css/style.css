@@ -314,6 +314,7 @@ hr {
 
 .card__inner:hover .card__text {
     opacity: 1;
+    display: block
 }
 
 .card__img {
@@ -332,6 +333,7 @@ hr {
 
 .card__text {
     width: 100%;
+    
 
     font-size: 18px;
     color: #fff;
@@ -347,6 +349,8 @@ hr {
     transform: translate3d(0, -50%, 0);
 
     transition: opacity .2s linear;
+
+    display: none;
 }
 
 .card__info {
