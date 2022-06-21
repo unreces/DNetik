@@ -627,6 +627,10 @@ hr {
     .stat__count {
         font-size: 52px;
     }
+    
+    .social__item {
+        justify-content: center;
+    }
 }
 
 
